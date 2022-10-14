@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
   <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -22,28 +23,30 @@
             </div>
         </div>
     </div>
+    <div class="w-full h-12 bg-gray-200"></div>
     <div class="w-full h-auto">
         <div class="grid grid-cols-1 md:grid-cols-3">
             <div class="bg-white flex flex-col p-10">
-                <button class="bg-red-500 rounded-full w-10 h-10 text-white mb-5 text-2xl hover:text-red-500 hover:border-2 hover:border-solid hover:border-red-500 hover:bg-white">▶</button>
+                <button class="bg-red-500 rounded-full w-10 h-10 text-white mb-5 text-2xl hover:text-red-500 hover:border-2 hover:border-solid hover:border-red-500 hover:bg-white"><i class="bi bi-play-fill"></i></button>
                 <button class="text-white bg-emerald rounded-full w-24 h-10 hover:bg-emerald-600">Sign in</button>
                 <button class="text-white bg-emerald rounded-full w-28 h-12 my-5 hover:bg-emerald-600">Sign in</button>
                 <button class="text-white bg-emerald rounded-full w-32 h-14 hover:bg-emerald-600">Sign in</button>
             </div>
             <div class="bg-white flex flex-col p-10">
-                <button class="bg-white border-slate-500 border-o-medium border-solid border-2 rounded-full w-10 h-10 text-violeta mb-5 text-2xl hover:bg-violeta hover:text-white">▶</button>
+                <button class="bg-white border-slate-500 border-o-medium border-solid border-2 rounded-full w-10 h-10 text-violeta mb-5 text-2xl hover:bg-violeta hover:text-white"><i class="bi bi-play-fill"></i></button>
                 <button class="text-violeta bg-white border-slate-500 border-o-medium border-solid border-2 rounded-full w-24 h-10 hover:bg-violeta hover:text-white">Sign in</button>
                 <button class="text-violeta bg-white rounded-full border-slate-500 border-o-medium	border-solid border-2 w-28 h-12 my-5 hover:bg-violeta hover:text-white">Sign in</button>
                 <button class="text-violeta bg-white rounded-full w-32 h-14 border-slate-500 border-o-medium border-solid border-2 hover:bg-violeta hover:text-white">Sign in</button>
             </div>
             <div class="bg-violeta flex flex-col p-10">
-                <button class="bg-violeta rounded-full w-10 h-10 text-white mb-5 border-white border-o-medium border-solid border-2 text-2xl hover:bg-white hover:text-violeta">▶</button>
+                <button class="bg-violeta rounded-full w-10 h-10 text-white mb-5 border-white border-o-medium border-solid border-2 text-2xl hover:bg-white hover:text-violeta"><i class="bi bi-play-fill"></i></button>
                 <button class="text-white bg-transparent border-white border-o-medium border-solid border-2 rounded-full w-24 h-10 hover:bg-white hover:text-violeta">Sign in</button>
                 <button class="text-white bg-transparent rounded-full w-28 h-12 my-5 border-white border-o-medium border-solid border-2 hover:bg-white hover:text-violeta">Sign in</button>
                 <button class="text-white bg-transparent rounded-full w-32 h-14 border-white border-o-medium border-solid border-2 hover:bg-white hover:text-violeta">Sign in</button>
             </div>
         </div>
     </div>
+    <div class="w-full h-12 bg-gray-200"></div>
     <div class="w-full h-auto">
         <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="flex sm:pt-20 py-12 sm:pl-12 px-5 sm:px-0 flex-col">
@@ -76,6 +79,7 @@
         </div>
         </div>
     </div>
+    <div class="w-full h-12 bg-gray-200"></div>
     <div class="w-full h-auto">
         <div class="grid grid-cols-1 xl:grid-cols-4 sm:grid-cols-2 grid-rows-3 sm:grid-rows-2 md:grid-rows-1">
             <div class="flex flex-col">
@@ -261,6 +265,7 @@
             </div>
         </div>
     </div>
+    <div class="w-full h-12 bg-gray-200"></div>
     <div class="w-full">
         <div class="grid grid-cols-1 grid-rows-3 sm:grid-rows-1 sm:grid-cols-3">
             <div class="h-28 flex justify-center items-center">
@@ -295,13 +300,14 @@
             </div>
         </div>
     </div>
+    <div class="w-full h-12 bg-gray-200"></div>
     <div class="w-full">
         <div class="grid grid-cols-1 sm:grid-cols-2">
             <div class="flex flex-col items-center py-12">
                 <div class="flex h-11 mb-6">
                     <div class="relative">
-                        <input type="radio" checked name="selector" id="selector1" class="selector-radio opacity-0 w-0 h-0 absolute">
-                        <label for="selector1" class="let border-2 cursor-pointer border-gray-100 border-solid text-gray-400 px-12 sm:py-2.5 sm:px-16 py-1.5 font-medium rounded-l-full">First</label>
+                        <input type="radio" name="selector" checked id="selector1" class="selector-radio opacity-0 w-0 h-0 absolute">
+                        <label for="selector1" class="let border-2 border-gray-100 border-solid text-gray-400 px-12 sm:py-2.5 cursor-pointer sm:px-16 py-1.5 font-medium rounded-l-full">First</label>
                     </div>
                     <div class="relative">
                         <input type="radio" name="selector" id="selector2" class="selector-radio opacity-0 w-0 h-0 absolute">
@@ -309,7 +315,7 @@
                     </div>
                     <div class="relative">
                         <input type="radio" name="selector" id="selector3" class="selector-radio opacity-0 w-0 h-0 absolute">
-                        <label for="selector3" class="let border-2 cursor-pointer border-gray-100 border-solid px-12 sm:py-2.5 sm:px-16 py-1.5 text-gray-400 font-medium rounded-r-full">Third</label>
+                        <label for="selector3" class="let border-2 border-gray-100 cursor-pointer border-solid px-12 sm:py-2.5 sm:px-16 py-1.5 text-gray-400 font-medium rounded-r-full">Third</label>
                     </div>
                 </div>
                 <div class="flex">
@@ -331,34 +337,35 @@
                 <div class="flex h-11 mb-6">
                     <div class="relative">
                         <input type="radio" checked name="selector-box-3" id="selector7" class="selector-radio-2 opacity-0 w-0 h-0 absolute">
-                        <label for="selector7" class="let border-2 cursor-pointer border-white border-solid text-white px-12 sm:py-2.5 sm:px-16 py-1.5 font-medium rounded-l-full">First</label>
+                        <label for="selector7" class="let border-2 border-white cursor-pointer border-solid text-white px-12 sm:py-2.5 sm:px-16 py-1.5 font-medium rounded-l-full">First</label>
                     </div>
                     <div class="relative">
                         <input type="radio" name="selector-box-3" id="selector8" class="selector-radio-2 opacity-0 w-0 h-0 absolute">
-                        <label for="selector8" class="let border-2 cursor-pointer border-white border-solid text-white px-12 sm:py-2.5 sm:px-16 py-1.5 font-medium">Second</label>
+                        <label for="selector8" class="let border-2 border-white cursor-pointer border-solid text-white px-12 sm:py-2.5 sm:px-16 py-1.5 font-medium">Second</label>
                     </div>
                     <div class="relative">
                         <input type="radio" name="selector-box-3" id="selector9" class="selector-radio-2 opacity-0 w-0 h-0 absolute">
-                        <label for="selector9" class="let border-2 cursor-pointer border-white border-solid px-12 sm:py-2.5 sm:px-16 py-1.5 text-white font-medium rounded-r-full">Third</label>
+                        <label for="selector9" class="let border-2 border-white cursor-pointer border-solid px-12 sm:py-2.5 sm:px-16 py-1.5 text-white font-medium rounded-r-full">Third</label>
                     </div>
                 </div>
                 <div class="flex">
                     <div class="relative">
                         <input type="radio" checked name="selector-box-4" id="selector10" class="selector-radio-2 opacity-0 w-0 h-0 absolute">
-                        <label for="selector10" class="let border-2 cursor-pointer border-white border-solid text-white px-12 sm:py-2.5 sm:px-16 py-1.5 font-medium rounded-l-full">First</label>
+                        <label for="selector10" class="let border-2 border-white cursor-pointer border-solid text-white px-12 sm:py-2.5 sm:px-16 py-1.5 font-medium rounded-l-full">First</label>
                     </div>
                     <div class="relative">
                         <input type="radio" name="selector-box-4" id="selector11" class="selector-radio-2 opacity-0 w-0 h-0 absolute">
-                        <label for="selector11" class="let border-2 cursor-pointer border-white border-solid text-white px-12 sm:py-2.5 sm:px-16 py-1.5 font-medium">Second</label>
+                        <label for="selector11" class="let border-2 border-white cursor-pointer border-solid text-white px-12 sm:py-2.5 sm:px-16 py-1.5 font-medium">Second</label>
                     </div>
                     <div class="relative">
                         <input type="radio" name="selector-box-4" id="selector12" class="selector-radio-2 opacity-0 w-0 h-0 absolute">
-                        <label for="selector12" class="let border-2 cursor-pointer border-white border-solid px-12 sm:py-2.5 sm:px-16 py-1.5 text-white font-medium rounded-r-full">Third</label>
+                        <label for="selector12" class="let border-2 border-white cursor-pointer border-solid px-12 sm:py-2.5 sm:px-16 py-1.5 text-white font-medium rounded-r-full">Third</label>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="w-full h-12 bg-gray-200"></div>
     <div class="w-full">
         <div class="grid grid-cols-1 sm:grid-cols-3">
             <div class="flex justify-center items-center h-28">
@@ -384,6 +391,7 @@
             </div>
         </div>
     </div>
+    <div class="w-full h-12 bg-gray-200"></div>
     <div class="grid grid-cols-1 sm:grid-cols-2 w-full">
         <div class="flex flex-col p-10">
             <div class="mb-6">
@@ -414,6 +422,7 @@
             </div>
         </div>
     </div>
+    <div class="w-full h-12 bg-gray-200"></div>
     <footer class="w-full">
         <div class="grid grid-cols-1 sm:grid-cols-2">
             <div class="p-10 sm:flex  sm:justify-center">
